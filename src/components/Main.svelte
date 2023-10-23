@@ -1,9 +1,21 @@
 <script>
 	import Step from './Step.svelte';
 	let steps = [
-		{ name: 'Epiq E-Commerce', icon: 'fa-solid fa-cart-shopping' },
-		{ name: 'Flixx', icon: 'fa-solid fa-ticket' },
-		{ name: 'Todo Mangement', icon: 'fa-solid fa-list' }
+		{
+			name: 'Epiq E-Commerce',
+			icon: 'fa-solid fa-cart-shopping',
+			href: 'https://github.com/Epiq122/next-ecommerce'
+		},
+		{
+			name: 'Flixx',
+			icon: 'fa-solid fa-ticket',
+			href: 'https://github.com/Epiq122/flixx-entertainment-app'
+		},
+		{
+			name: 'Todo Mangement',
+			icon: 'fa-solid fa-list',
+			href: 'https://github.com/Epiq122/todo-mangement-system'
+		}
 	];
 
 	let benifits = [
@@ -69,18 +81,21 @@
 			<i class="fa-regular fa-circle-play" />
 			<p>Watch the video</p>
 		</a> -->
+
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 			<Step step={steps[0]}
 				>Epiq E-commerce is a small e-commerce store created with<strong class="text-violet-400">
 					Nextjs 13, Typescript, Stripe, Prisma,TailwindCSS</strong
-				></Step
+				>
+				<h5>Currently only GitHub Repo</h5></Step
 			>
 			<Step step={steps[1]}>
 				Flixx a movie display app getting movies from an API and displaying on the screen<strong
 					class="text-violet-400"
 				>
 					Vanilla Javascript</strong
-				></Step
+				>
+				<h5>Currently only GitHub Repo</h5></Step
 			>
 			<Step step={steps[2]}>
 				This to-do management app offers login/register functionality, full CRUD operations, admin
@@ -90,6 +105,7 @@
 				>
 					Spring Boot 3 Spring Security 6 JWT Spring Data MySQL React Bootstrap JPA</strong
 				>
+				<h5>Currently only GitHub Repo</h5>
 			</Step>
 		</div>
 	</section>
