@@ -22,7 +22,7 @@ hover:border-violet-400 duration-200
     after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden
     "
 		>
-			<p class="relative z-4">Go to &rarr;</p>
+			<!-- <p class="relative z-4">Go to &rarr;</p> -->
 		</div>
 	</div>
 </a>

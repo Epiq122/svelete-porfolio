@@ -7,9 +7,10 @@
 			href: 'https://github.com/Epiq122/next-ecommerce'
 		},
 		{
-			name: 'Flixx',
-			icon: 'fa-solid fa-ticket',
-			href: 'https://github.com/Epiq122/flixx-entertainment-app'
+			name: 'React Essentials',
+			icon: 'fa-solid fa-x',
+			href: 'https://github.com/Epiq122/react-essentials-max-ts',
+			link: 'https://react-essentials-max-ts.vercel.app'
 		},
 		{
 			name: 'Todo Mangement',
@@ -90,13 +91,17 @@
 				<h5>Currently only GitHub Repo</h5></Step
 			>
 			<Step step={steps[1]}>
-				Flixx a movie display app getting movies from an API and displaying on the screen<strong
+				A React landing type page that shows some information about react essentials<strong
 					class="text-violet-400"
 				>
-					Vanilla Javascript</strong
+					React, Typescript,Styled Components</strong
 				>
-				<h5>Currently only GitHub Repo</h5></Step
-			>
+				<h5 class="hover:text-blue-500 transition duration-200">GitHub Repo</h5>
+				<a
+					href="https://react-essentials-max-ts.vercel.app"
+					class="hover:text-blue-500 transition duration-200">Live Demo</a
+				>
+			</Step>
 			<Step step={steps[2]}>
 				This to-do management app offers login/register functionality, full CRUD operations, admin
 				roles for adding, updating, and deleting tasks, basic user roles for task completion, and
