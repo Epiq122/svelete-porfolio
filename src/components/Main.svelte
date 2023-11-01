@@ -9,7 +9,7 @@
 		{
 			name: 'React Essentials',
 			icon: 'fa-solid fa-x',
-			href: 'https://github.com/Epiq122/react-essentials-max-ts',
+			href: 'https://github.com/Epiq122/react-essentials-v2',
 			link: 'https://react-essentials-max-ts.vercel.app'
 		},
 		{
