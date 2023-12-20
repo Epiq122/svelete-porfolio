@@ -92,7 +92,7 @@
 				>
 				<h5>Github Repo</h5>
 				<a
-					href="https://astro-blog-epiq122.vercel.app/"
+					href="https://astro-blog-azure-eight.vercel.app/"
 					class="hover:text-blue-500 transition duration-200">Live Demo</a
 				>
 			</Step>
