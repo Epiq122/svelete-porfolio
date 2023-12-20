@@ -2,9 +2,9 @@
 	import Step from './Step.svelte';
 	let steps = [
 		{
-			name: 'Epiq E-Commerce',
-			icon: 'fa-solid fa-cart-shopping',
-			href: 'https://github.com/Epiq122/next-ecommerce'
+			name: 'TechPeople Astro Blog',
+			icon: 'fa-solid fa-book',
+			href: 'https://github.com/Epiq122/astro-blog'
 		},
 		{
 			name: 'React Essentials',
@@ -85,11 +85,17 @@
 
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 			<Step step={steps[0]}
-				>Epiq E-commerce is a small e-commerce store created with<strong class="text-violet-400">
-					Nextjs 13, Typescript, Stripe, Prisma,TailwindCSS</strong
+				>TechPeople is a small bolg site with pagination and search functionality created with<strong
+					class="text-violet-400"
 				>
-				<h5>Currently only GitHub Repo</h5></Step
-			>
+					Astro, Typescript,TailwindCSS</strong
+				>
+				<h5>Github Repo</h5>
+				<a
+					href="https://astro-blog-epiq122.vercel.app/"
+					class="hover:text-blue-500 transition duration-200">Live Demo</a
+				>
+			</Step>
 			<Step step={steps[1]}>
 				A React landing type page that shows some information about react essentials<strong
 					class="text-violet-400"
